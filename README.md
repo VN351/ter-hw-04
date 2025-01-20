@@ -138,10 +138,10 @@
       - nginx
     ```
 
-2. ![alt text](https://github.com/VN351/ter-hw-4/raw/main/images/task-1-1.png)
-3. ![alt text](https://github.com/VN351/ter-hw-4/raw/main/images/task-1-2.png)
-4. ![alt text](https://github.com/VN351/ter-hw-4/raw/main/images/task-1-3.png)
-5. ![alt text](https://github.com/VN351/ter-hw-4/raw/main/images/task-1-4.png)
+2. ![alt text](https://github.com/VN351/ter-hw-04/raw/main/images/task-1-1.png)
+3. ![alt text](https://github.com/VN351/ter-hw-04/raw/main/images/task-1-2.png)
+4. ![alt text](https://github.com/VN351/ter-hw-04/raw/main/images/task-1-3.png)
+5. ![alt text](https://github.com/VN351/ter-hw-04/raw/main/images/task-1-4.png)
 
 ### Задание 2
 
@@ -249,7 +249,7 @@ module "vpc_dev" {
       value       = yandex_vpc_subnet.dev-sub.v4_cidr_blocks
     }
     ```
-2.  ![alt text](https://github.com/VN351/ter-hw-4/raw/main/images/task-2-1.png) 
+2.  ![alt text](https://github.com/VN351/ter-hw-04/raw/main/images/task-2-1.png) 
 3.  main.tf
     ```
     module "vpc_prod" {
@@ -420,13 +420,13 @@ module "vpc_dev" {
 Приложите список выполненных команд и скриншоты процессы.
 ------
 ## Ответ на задание 3
-1.  ![alt text](https://github.com/VN351/ter-hw-4/raw/main/images/task-3-1.png)
-2.  ![alt text](https://github.com/VN351/ter-hw-4/raw/main/images/task-3-2.png)
-3.  ![alt text](https://github.com/VN351/ter-hw-4/raw/main/images/task-3-3.png)
-4.  ![alt text](https://github.com/VN351/ter-hw-4/raw/main/images/task-3-4.png)
-5.  ![alt text](https://github.com/VN351/ter-hw-4/raw/main/images/task-3-5.png)
-6.  ![alt text](https://github.com/VN351/ter-hw-4/raw/main/images/task-3-6.png)
-7.  ![alt text](https://github.com/VN351/ter-hw-4/raw/main/images/task-3-7.png)
+1.  ![alt text](https://github.com/VN351/ter-hw-04/raw/main/images/task-3-1.png)
+2.  ![alt text](https://github.com/VN351/ter-hw-04/raw/main/images/task-3-2.png)
+3.  ![alt text](https://github.com/VN351/ter-hw-04/raw/main/images/task-3-3.png)
+4.  ![alt text](https://github.com/VN351/ter-hw-04/raw/main/images/task-3-4.png)
+5.  ![alt text](https://github.com/VN351/ter-hw-04/raw/main/images/task-3-5.png)
+6.  ![alt text](https://github.com/VN351/ter-hw-04/raw/main/images/task-3-6.png)
+7.  ![alt text](https://github.com/VN351/ter-hw-04/raw/main/images/task-3-7.png)
 
 ## Дополнительные задания (со звёздочкой*)
 
@@ -477,8 +477,8 @@ module "vpc_dev" {
       ]
     }
     ```
-2.  ![alt text](https://github.com/VN351/ter-hw-4/raw/main/images/task-4-1.png)
-3.  ![alt text](https://github.com/VN351/ter-hw-4/raw/main/images/task-4-2.png)
+2.  ![alt text](https://github.com/VN351/ter-hw-04/raw/main/images/task-4-1.png)
+3.  ![alt text](https://github.com/VN351/ter-hw-04/raw/main/images/task-4-2.png)
 
 ### Задание 5*
 
@@ -640,12 +640,12 @@ module "vpc_dev" {
       default = "app"
     }
     ```  
-4.  ![alt text](https://github.com/VN351/ter-hw-4/raw/main/images/task-5-1.png)
-5.  ![alt text](https://github.com/VN351/ter-hw-4/raw/main/images/task-5-2.png) 
-6.  ![alt text](https://github.com/VN351/ter-hw-4/raw/main/images/task-5-3.png)
-7.  ![alt text](https://github.com/VN351/ter-hw-4/raw/main/images/task-5-4.png)
-8.  ![alt text](https://github.com/VN351/ter-hw-4/raw/main/images/task-5-5.png)
-9.  ![alt text](https://github.com/VN351/ter-hw-4/raw/main/images/task-5-6.png)   
+4.  ![alt text](https://github.com/VN351/ter-hw-04/raw/main/images/task-5-1.png)
+5.  ![alt text](https://github.com/VN351/ter-hw-04/raw/main/images/task-5-2.png) 
+6.  ![alt text](https://github.com/VN351/ter-hw-04/raw/main/images/task-5-3.png)
+7.  ![alt text](https://github.com/VN351/ter-hw-04/raw/main/images/task-5-4.png)
+8.  ![alt text](https://github.com/VN351/ter-hw-04/raw/main/images/task-5-5.png)
+9.  ![alt text](https://github.com/VN351/ter-hw-04/raw/main/images/task-5-6.png)   
 ### Задание 6*
 1. Используя готовый yandex cloud terraform module и пример его вызова(examples/simple-bucket): https://github.com/terraform-yc-modules/terraform-yc-s3 .
 Создайте и не удаляйте для себя s3 бакет размером 1 ГБ(это бесплатно), он пригодится вам в ДЗ к 5 лекции.
@@ -670,7 +670,7 @@ module "vpc_dev" {
       default = "1073741824"
     }
     ```
-2.  ![alt text](https://github.com/VN351/ter-hw-4/raw/main/images/task-6-1.png)  
+2.  ![alt text](https://github.com/VN351/ter-hw-04/raw/main/images/task-6-1.png)  
 
 ### Задание 7*
 
@@ -795,10 +795,10 @@ terraform console: >nonsensitive(data.vault_generic_secret.vault_example.data.<�
       value = nonsensitive(data.vault_generic_secret.vault_example3.data)
     }
     ```
-2.  ![alt text](https://github.com/VN351/ter-hw-4/raw/main/images/task-7-1.png)
-3.  ![alt text](https://github.com/VN351/ter-hw-4/raw/main/images/task-7-2.png) 
-4.  ![alt text](https://github.com/VN351/ter-hw-4/raw/main/images/task-7-3.png)
-5.  ![alt text](https://github.com/VN351/ter-hw-4/raw/main/images/task-7-4.png)
+2.  ![alt text](https://github.com/VN351/ter-hw-04/raw/main/images/task-7-1.png)
+3.  ![alt text](https://github.com/VN351/ter-hw-04/raw/main/images/task-7-2.png) 
+4.  ![alt text](https://github.com/VN351/ter-hw-04/raw/main/images/task-7-3.png)
+5.  ![alt text](https://github.com/VN351/ter-hw-04/raw/main/images/task-7-4.png)
 
 ### Задание 8*
 Попробуйте самостоятельно разобраться в документаци и с помощью terraform remote state разделить root модуль на два отдельных root-модуля: создание VPC , создание ВМ . 
