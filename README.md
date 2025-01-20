@@ -22,7 +22,7 @@
 
 ## Ссылка на репозиторий с выполненой работой
 
-[Ссылка на конфигурацию Terraform](https://github.com/VN351/dev/tree/master)
+[Ссылка на конфигурацию Terraform](https://github.com/VN351/ter-hw-04-code/tree/master)
 
 ### Задание 1
 
@@ -42,6 +42,7 @@
     env_name       = each.value.env_name
     network_id     = each.value.network_id
     subnet_zones   = each.value.subnet_zones
+    subnet_ids     = each.value.subnet_ids
     subnet_ids     = each.value.subnet_ids
     instance_name  = each.value.instance_name
     instance_count = each.value.instance_count
